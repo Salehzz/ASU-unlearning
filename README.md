@@ -101,48 +101,6 @@ pip install flash-attn --no-build-isolation
 
 ---
 
-# Training
-
-Example training command:
-
-```bash
-python train_unlearning.py \
-  --model_name meta-llama/Llama-2-7b \
-  --dataset tofu \
-  --temperature 2.0 \
-  --learning_rate 2e-5 \
-  --batch_size 8
-```
-
-Key parameters:
-
-| Parameter | Description |
-|---|---|
-| `temperature` | attention smoothing temperature |
-| `forget_set` | dataset to remove knowledge from |
-| `retain_set` | dataset to preserve knowledge |
-| `distill_weight` | weight for self-distillation loss |
-
----
-
-# Evaluation
-
-Run evaluation on the supported benchmarks.
-
-```bash
-python evaluate.py \
-  --model_path checkpoints/asu \
-  --benchmark tofu
-```
-
-Evaluation metrics include:
-
-- forgetting effectiveness
-- retained model utility
-- task performance on QA and generation tasks
-
----
-
 # Acknowledgements
 
 This repository builds upon several open-source projects:
