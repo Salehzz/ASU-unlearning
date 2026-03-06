@@ -91,28 +91,13 @@ This implementation supports evaluation on several unlearning benchmarks:
 Clone the repository and create a conda environment.
 
 ```bash
-git clone https://github.com/<username>/attention-smoothing-unlearning
-cd attention-smoothing-unlearning
-
-conda create -n asu python=3.10
-conda activate asu
-
+conda create -n tofu python=3.10
+conda activate tofu
+conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
 pip install -r requirements.txt
+pip install flash-attn --no-build-isolation
 ```
-
----
-
-# Dataset Setup
-
-Download the datasets used in the experiments.
-
-```bash
-bash scripts/download_tofu.sh
-bash scripts/download_muse.sh
-bash scripts/download_wmdp.sh
-```
-
-If you already have the datasets, update the dataset paths in the configuration files.
 
 ---
 
@@ -155,27 +140,6 @@ Evaluation metrics include:
 - forgetting effectiveness
 - retained model utility
 - task performance on QA and generation tasks
-
----
-
-# Repository Structure
-
-```
-.
-├── configs
-│   └── training configurations
-├── datasets
-│   └── dataset loaders and preprocessing
-├── models
-│   └── transformer modifications for ASU
-├── training
-│   └── unlearning training pipeline
-├── evaluation
-│   └── benchmark evaluation scripts
-├── scripts
-│   └── dataset download scripts
-└── README.md
-```
 
 ---
 
