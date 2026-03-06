@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Build/cache/logs
+build/
+dist/
+.cache/
+*.log
+
+# ML artifacts
+checkpoints/
+runs/
+wandb/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Data/model downloads
+data/
+datasets/
+hf_cache/
+.cache/huggingface/

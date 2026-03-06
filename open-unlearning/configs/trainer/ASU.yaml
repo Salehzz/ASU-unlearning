@@ -1,0 +1,10 @@
+defaults:
+  - GradDiff
+
+handler: ASU
+method_args:
+  attention_temp: 2.0
+  layers_id: null
+  alpha: 1.0
+  gamma: 1.0
+  retain_loss_type: NLL
