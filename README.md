@@ -204,16 +204,11 @@ We thank the authors of these repositories for making their work publicly availa
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{zarezade2026attention,
-  title={Attention Smoothing Is All You Need For Unlearning},
-  author={Zare Zade, Saleh and Zhou, Xiangyu and Liu, Sijia and Zhu, Dongxiao},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2026}
+@inproceedings{zade2026attention,
+title={Attention Smoothing Is All You Need For Unlearning},
+author={Saleh Zare Zade and Xiangyu Zhou and Sijia Liu and Dongxiao Zhu},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=sX9HbELwLO}
 }
 ```
-
----
-
-# License
-
-This project is released under the MIT License.
