@@ -1,8 +1,4 @@
-# A Closer Look at Machine Unlearning for Large Language Models
-
-[![Arxiv](https://img.shields.io/badge/arXiv-2410.08109-B21A1B)](https://arxiv.org/abs/2410.08109)
-
-This repository is the official implementation for the paper: [A Closer Look at Machine Unlearning for Large Language Models](https://arxiv.org/abs/2410.08109)
+# Right to be Forgotten
 
 ## Installation
 
@@ -22,31 +18,31 @@ pip install flash-attn --no-build-isolation
 
 ## Fictitious unlearning scenario
 
-**(1) ME+GD**
+**(1) ASU**
 
 ```shell
 bash scripts/tofu/me_gd.sh
 ```
 
-**(2) IDK+AP**
+**(2) Baselines**
 
 ```shell
-bash scripts/tofu/idk_ap.sh
+bash scripts/tofu/baselines.sh
 ```
 
 
 ## Continual unlearning scenario
 
-**(1) ME+GD**
+**(1) ASU**
 
 ```shell
-bash scripts/continual_tofu/me_gd.sh
+bash scripts/continual_tofu/asu.sh
 ```
 
-**(2) IDK+AP**
+**(2) Baselines**
 
 ```shell
-bash scripts/continual_tofu/idk_ap.sh
+bash scripts/continual_tofu/baselines.sh
 ```
 
 
@@ -59,19 +55,19 @@ cd lm-evaluation-harness
 pip install -e .
 ```
 
-**(1) ME+GD**
+**(1) ASU**
 
 ```shell
-bash scripts/real_world/me_gd.sh
+bash scripts/real_world/asu.sh
 ```
 
-**(2) IDK+AP**
+**(2) Baselines**
 ```shell
-bash scripts/real_world/idk_ap.sh
+bash scripts/real_world/baselines.sh
 ```
 
 
 ## Acknowledgments
 
-This repository is based on the codebase of the [TOFU Benchmark](https://github.com/locuslab/tofu/). Thanks for their impressive works!
+This repository is based on the codebase of the [A Closer Look at Machine Unlearning for Large Language Models](https://github.com/sail-sg/closer-look-LLM-unlearning). Thanks for their impressive works!
 
