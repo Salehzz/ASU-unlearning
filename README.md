@@ -1,5 +1,8 @@
 # Attention Smoothing Is All You Need For Unlearning
 
+<img width="1880" height="1003" alt="image" src="https://github.com/user-attachments/assets/ce7b8f05-819f-4c3a-ade6-983db0288652" />
+
+
 [![arXiv](https://img.shields.io/badge/arXiv-2603.01285-b31b1b.svg)](https://arxiv.org/abs/2603.01285)
 [![ICLR](https://img.shields.io/badge/ICLR-2026-blue.svg)](https://openreview.net/forum?id=sX9HbELwLO)
 
