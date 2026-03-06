@@ -1,7 +1,5 @@
 # <img alt="icon" src="figures/icon.png" height=30> MUSE: Machine Unlearning Six-Way Evaluation for Language Models
 
-This repository provides the original implementation of *Machine Unlearning Six-Way Evaluation for Language Models* by Weijia Shi*, Jaechan Lee*, Yangsibo Huang*, Sadhika Malladi, Jieyu Zhao, Ari Holtzman, Daogao Liu, Luke Zettlemoyer, Noah A. Smith, and Chiyuan Zhang. (*Equal contribution)
-
 ### Conda Environment
 
 To create a conda environment for Python 3.10, run:
