@@ -21,6 +21,15 @@ Official implementation of the paper:
   </a>
 </p>
 
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2603.01285">
+    <img src="https://img.shields.io/badge/arXiv-2603.01285-b31b1b.svg">
+  </a>
+  <a href="https://openreview.net/forum?id=sX9HbELwLO">
+    <img src="https://img.shields.io/badge/ICLR-2026-blue.svg">
+  </a>
+</p>
 ---
 
 # Overview
