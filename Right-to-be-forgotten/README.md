@@ -21,7 +21,7 @@ pip install flash-attn --no-build-isolation
 **(1) ASU**
 
 ```shell
-bash scripts/tofu/me_gd.sh
+bash scripts/tofu/asu.sh
 ```
 
 **(2) Baselines**
