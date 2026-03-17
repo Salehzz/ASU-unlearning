@@ -14,7 +14,7 @@ pip install flash-attn --no-build-isolation
 ```
 
 
-*All experiments are conducted on two NVIDIA A100 GPUs with 40GB of memory.*
+*All experiments are conducted on two NVIDIA H100 GPUs with 80GB of memory.*
 
 ## Fictitious unlearning scenario
 
